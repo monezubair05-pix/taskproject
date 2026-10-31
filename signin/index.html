@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HirePath - Sign In</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Left Section -->
+        <section class="welcome-section">
+
+            <div class="logo">
+                <img src="./logo.jpg" alt="logo">
+                <h2>HirePath</h2>
+            </div>
+
+            <div class="welcome-content">
+                 <span class="tag">✨ Your next step starts here</span>
+                <h1>Welcome to HirePath</h1>
+
+
+                <p>
+                    Your career journey starts here.
+                    Discover opportunities and build your future with us.
+                </p>
+            </div>
+            <div class="match-card">
+
+                <div class="match-header">
+                    <h3>You're closer to your next opportunity</h3>
+                    <span class="match-badge">Great Match</span>
+
+                </div>
+
+                <div class="match-details">
+                    <div class="match-percentage">30%</div>
+
+                    <div class="match-info">
+                        <h4>UI/UX Designer</h4>
+
+                        <div class="progress-bar">
+                            <span style="width: 30%;"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="match-description">
+                    Your skills are a great match for this opportunity!
+                </p>
+
+            </div>
+
+            <div class="welcome-footer">
+                <h3>Find Your Path. Build Your Future.</h3>
+            </div>
+
+
+
+        </section>
+
+        <!-- Right Section -->
+        <section class="login-section">
+
+            <div class="language">
+                <select>
+                    <option>English</option>
+                    <option>Arabic</option>
+                </select>
+            </div>
+
+            <div class="login-content">
+
+                <h2>Sign in to continue your journey</h2>
+
+                <button class="google-btn" type="button">
+                    <span>G</span>
+                    Continue with Google
+                </button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <form id="loginForm">
+                    <label for="name">first name</label>
+                    <input type="text" id="text"placeholder="Enter your name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+
+                    <div class="options">
+
+                        <label class="remember">
+                            <input type="checkbox">
+                            Remember me
+                        </label>
+
+                        <a href="../ForgotPassword/forgot.html">
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+
+
+                </form>
+                <a href="../forgetpassword/" class="login-btn">
+                    Sign In
+                </a>
+
+                <p class="signup">
+                    Don't have an account?
+                    <a href="../SignUp/signup.html">Create Account</a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

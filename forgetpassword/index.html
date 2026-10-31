@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - HirePath</title>
+    <!-- Google Fonts & Styles (or your external CSS file) -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- Left Section (Welcome / Branding Banner) -->
+        <section class="welcome-section">
+
+            <div class="logo">
+                <img src="./logo.jpg" alt="logo">
+                <h2>HirePath</h2>
+            </div>
+
+            <div class="welcome-content">
+                <span class="tag">✨ Your next step starts here</span>
+                <h1>Your career journey,<br>AI-powered.</h1>
+                <p>
+                    Discover your skills, build your resume, and prepare for your next opportunity with confidence.
+                </p>
+            </div>
+
+            <div class="match-card">
+                <div class="match-header">
+                    <h3>You're closer to your next opportunity</h3>
+                    <span class="match-badge">Great Match</span>
+                </div>
+
+                <div class="match-details">
+                    <div class="match-percentage">50%</div>
+                    <div class="match-info">
+                        <h4>UI/UX Designer</h4>
+                        <div class="progress-bar">
+                            <span style="width: 50%;"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="match-description">
+                    Smart insights to help you showcase your best self.
+                </p>
+            </div>
+
+            <div class="welcome-footer">
+                <p>Join over 10k+ job seekers</p>
+            </div>
+
+        </section>
+
+        
+        <section class="login-section">
+
+          
+            <div class="top-bar">
+                <div class="language">
+                    <select>
+                        <option>English</option>
+                        <option>Arabic</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="forgot-content">
+
+                <!-- Logo / Brand Header on Right -->
+                <div class="right-brand">
+                    <h2>HirePath <span>✨</span></h2>
+                </div>
+
+                <!-- Key Icon Header -->
+                <div class="icon-header">
+                    <div class="key-icon">🔑</div>
+                </div>
+
+                <h2>Forgot Password?</h2>
+                <p class="sub-title">
+                    Don't worry, enter your email and we'll send you a verification code to recover your account.
+                </p>
+
+                <form id="forgotPasswordForm" action="#" method="POST">
+                    
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <div class="input-wrapper">
+                            <input type="email" id="email" name="email" placeholder="Enter your registered email" required>
+                            <span class="input-icon">✉️</span>
+                        </div>
+                    </div>
+
+                    <!-- Note / Info Box -->
+                    <div class="info-box">
+                        <span class="info-icon">📩</span>
+                        <p>We'll send a 6-digit code to your email. It may take a few minutes to arrive.</p>
+                    </div>
+
+                    <!-- Action Button -->
+                    <button type="submit" class="submit-btn">
+                        Send Verification Code <span>→</span>
+                    </button>
+
+                </form>
+
+                <!-- Back to Login Link -->
+                <div class="back-to-login">
+                    <a href="../login/index.html">Back to Sign In</a>
+                </div>
+
+            </div>
+
+            <!-- Footer links -->
+            <div class="footer-links">
+                <a href="#">Privacy & Terms</a>
+                <span>© 2026 HirePath</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
